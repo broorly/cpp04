@@ -1,10 +1,11 @@
 #pragma once
 #include"Animal.hpp"
+#include"Brain.hpp"
 
-class Cat : public Animal
+class Cat : public Animal 
 {
 private:
-	/* data */
+	// Brain *brain;
 public:
 	Cat();
 	~Cat();

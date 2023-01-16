@@ -6,7 +6,7 @@ CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
 NAME = 	Animal
 
-SRC = 	Animal.cpp Cat.cpp  Dog.cpp WrongAnimal.cpp WrongCat.cpp main.cpp
+SRC = 	Animal.cpp Cat.cpp  Dog.cpp Brain.cpp WrongAnimal.cpp WrongCat.cpp main.cpp
 	
 OBJ = $(SRC: .c=.o)
 
