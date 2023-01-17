@@ -7,20 +7,18 @@
 
 int main()
 {
-	Animal *meta[10];
-	for(int i =0; i < 10 ; i++)
+	Animal *meta[2];
+	// Animal tst;
+	for(int i =0; i < 2 ; i++)
 	{
 		if(i%2)
 			meta[i] = new Dog ;
 		else
 			meta[i] = new Cat;
 	}
-	for(int i =0; i < 10 ; i++)
+	for(int i =0; i < 2 ; i++)
 	{
 		delete meta[i];
 	}
-	system("leaks Animal");
-	while (1);
-	
 	return 0;
 }
